@@ -1,0 +1,28 @@
+body{
+   margin: 0%;
+    padding: 0%;
+    min-width: 100%;
+    overflow-x: hidden;
+}
+form{
+    padding-left: 200px ;
+    padding-right: 250px;
+    padding-top: 100px;
+    zoom: 150%;
+    border-color: blue;
+    align-items: center;
+}
+.common{
+    text-align: center;
+    width: 408px;
+}
+.submit{
+    width: 418px;
+    background-color: blue;
+    color: white;
+}
+#name{
+    padding-left: 0%;
+    text-align: center;
+    width: 200px;
+}
