@@ -1,16 +1,22 @@
 body{
-   margin: 0%;
-    padding: 0%;
+    margin: 0%;
+    padding: 20%;
     min-width: 100%;
     overflow-x: hidden;
 }
+fieldset{
+    margin: 0%;
+    align-content: center;
+    padding: 0%;
+    width: 50%;
+}
 form{
-    padding-left: 200px ;
-    padding-right: 250px;
-    padding-top: 100px;
+    
+    padding: 10px 10px 10px 10px;
     zoom: 150%;
     border-color: blue;
     align-items: center;
+    background-color: yellow;
 }
 .common{
     text-align: center;
@@ -26,3 +32,16 @@ form{
     text-align: center;
     width: 200px;
 }
+/* @media screen and (min-width:400px) and (min-device-height:800px) and (orientation:portrait){
+   form{
+       background-color: tomato;
+       font-size: 18px;
+   }
+}
+@media screen and (min-width:400px) and (min-device-height:800px) and (orientation:landscape){
+   form{
+       background-color: turquoise;
+       font-size: 12px;
+       line-height: 18px;
+   }    
+} */
