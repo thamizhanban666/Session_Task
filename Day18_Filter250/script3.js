@@ -46,6 +46,5 @@ filter.addEventListener("click",()=>{
       pArr.push(p);
       console.log(filtArr[i].Name)
    }
-   pArr.join("");
-   o.innerHTML= `<strong><h3>Students who have secured marks above 250 :</h3>${pArr}<strong>`;  
+   o.innerHTML= `<strong><h3>Students who have secured marks above 250 :</h3>${pArr.join("")}<strong>`;  
 })
